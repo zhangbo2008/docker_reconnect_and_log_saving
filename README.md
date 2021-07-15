@@ -1,0 +1,2 @@
+# docker_reconnect_and_log_saving
+自动化重连docker和日志宿主机保存. 工业级部署方案分享

@@ -17,3 +17,11 @@ docker run -ti --user root -p 10022:22   -p  8080:8080  -v /home/troila/log:/yyz
 docker run -ti --user root -p 10022:22   -p  8080:8080  -v /home/troila/log:/mnt   --restart=always ocr_yyzz2    /bin/bash  
 
 亲测有效.不管容器启动多少次,日志都往/home/troila/log目录里面写.追加模式
+
+docker run -ti --user root -p 10022:22   -p  8081:8081  -v /home/troila/log:/mnt   --restart=always cd8876bb979e    /bin/bash  
+
+
+进入docker 
+nohup python3 informateion_extract_server.py &
+
+然后输入ctrl+p+q 退出即可.
